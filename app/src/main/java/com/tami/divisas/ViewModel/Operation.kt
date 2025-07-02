@@ -15,5 +15,7 @@ suspend fun operation(Divisa1: String, Divisa2: String, ValorQuerido: Int): Doub
 
     }else{
         Log.e("OPERATION", "Error inesperado")
+        val total = 0.0
+        return total
     }
 }
