@@ -1,5 +1,5 @@
 package com.tami.divisas
-
+import com.tami.divisas.view.UI
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             DivisasTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    UI()
                 }
             }
         }
