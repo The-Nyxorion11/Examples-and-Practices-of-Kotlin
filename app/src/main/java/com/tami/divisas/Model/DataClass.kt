@@ -13,5 +13,5 @@ import com.google.gson.annotations.SerializedName
 data class DataResponse(
     //pero ojito puedo cambiar el nombre de las variables
     @SerializedName("result") var status : String,
-    @SerializedName("rates") var divisa: List<String>
-){}
+    @SerializedName("rates") var divisa: Map<String, Double>
+)
